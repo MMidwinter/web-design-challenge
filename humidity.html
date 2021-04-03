@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Latitude Vs Humidity</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html">Latitude Analysis</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Plots
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="maxtemperature.html">Max Temperature</a>
+                    <a class="dropdown-item" href="humidity.html">Humidity</a>
+                    <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                    <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
+                </div>
+                </li><a class="nav-link" href="comparison.html">Comparison </a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="data.html">Data</a>
+                </li>
+            </ul>
+            </div>
+        </nav>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <h1 class="card-header">Latitude Vs Humidity</h1>
+                    <div class="card-body">
+                        <img src="Resources/assets/images/lat_vs_humidity.png" class="rounded float-left" alt="Example Lat vs Humidity">
+                      <p class="card-text">This analysis looked at a given cities humidity against the cities latitude. As a city increases in latitude we see a higher concentration of cities with high humidity. Interestingly we also see that around latitude 0 - 40 there is a higher percentage of cities with low humidity than cities at -1 - -40.</p>
+                      </div>
+                  </div>
+            </div>
+            <div class="col-md-12">
+                <div class="card">
+                    <h3 class="card-header">Visualizations</h3>
+                    <div class="card-body">
+                        <a href="maxtemperature.html"><img src="Resources/assets/images/lat_vs_temperature.png" class="rounded float-left" alt="..."></a>
+                        <a href="cloudiness.html"><img src="Resources/assets/images/lat_vs_cloud.png" class="rounded float-left" alt="..."></a>
+                        <a href="maxtemperature.html"><img src="Resources/assets/images/lat_vs_humidity.png" class="rounded float-left" alt="..."></a>
+                        <a href="windspeed.html"><img src="Resources/assets/images/lat_vs_wind.png" class="rounded float-left" alt="..."></a>
+                    </div>
+                  </div>
+            </div>
+        
+            <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        </body>
+</html>
